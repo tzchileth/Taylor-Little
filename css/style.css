@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color:#e3c3b3
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    gap: 20px;
+}
+
+.container>h1 {
+    color: rgb(175, 153, 26);
+}
+
+.container>h1:hover {
+    color: #ffffff;
+}
+
+h2:hover {
+    color: rgb(37, 106, 185);
+}
+
+
+.container>.first-row img {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #fdfbfb;
+}
+
+.first-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.major {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-auto-rows: 25px;
+    gap: 15px;
+}
+
+.major>h2 {
+    justify-self: center;
+    color: black;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-auto-rows: 25px;
+    gap: 15px;
+}
+
+.skills>h2 {
+    justify-self: center;
+    color: black;
+}
+
+.hobbies {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-auto-rows: 25px;
+    gap: 15px;
+}
+
+.hobbies>h2 {
+    justify-self: center;
+    color: black;
+}
+
+.quotes {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-auto-rows: 25px;
+    gap: 5px;
+}
+
+.quotes>h2 {
+    justify-self: center;
+    color: black;
+}
+
+.quotes>span {
+    color: rgb(175, 153, 26);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.quotes>span:hover {
+    color: purple;
+    font-style: italic;
+}
+
+.quotes:hover {
+    color: rgb(30, 67, 136);
+}
+
+.major>h2,
+.skills>h2,
+.hobbies>h2,
+.quotes>h2 {
+    color: rgb(17, 70, 71);
+}
+
+.major>h2:hover,
+.skills>h2:hover,
+.hobbies>h2:hover,
+.quotes>h2:hover {
+    color: rgb(255, 255, 255);
+}
+
+.social-media {
+    display: grid;
+    align-content: center;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul>li>a>img {
+    height: 30px;
+
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.footer>.company,
+.footer>.copyright {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footer>.company:hover {
+    color: rgb(17, 62, 131);
+}
+
+.footer>.copyright:hover {
+    color: #af0f4c
+}
